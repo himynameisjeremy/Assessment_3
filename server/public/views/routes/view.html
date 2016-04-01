@@ -1,0 +1,10 @@
+<p>
+  <div ng-repeat="object in data.response">
+    <p>{{ object.alias }}</p>
+    <p>{{ object.first_name }}</p>
+    <p>{{ object.last_name }}</p>
+    <p>{{ object.city }}</p>
+    <p>{{ object.power_name }}</p>
+    <button ng-click = "deleteHero(hero._id)">Send Hero to Valhala</button>
+  </div>
+</p>
