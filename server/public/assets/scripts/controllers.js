@@ -19,7 +19,7 @@ myApp.controller("ShowController", ["$scope", "heroService", function($scope, he
   console.log("All is well in ShowController");
 
   $scope.deleteHero = function(heroID){
-    console.log("Sening hero to Valhalla", heroID);
+    console.log("Sending hero to Valhalla", heroID);
     var deletebyID = {"heroID" : heroID};
     heroService.deleteHero(deletebyID);
   };
